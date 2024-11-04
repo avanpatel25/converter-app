@@ -6,7 +6,7 @@ metadata:
 spec:
   containers:
     - name: kiada
-      image: techwithprerit/k8s-hindi-app
+      image: techwithprerit/k8s-hindi-app1:1.2-major
       imagePullPolicy: Always
       Ports:
         - containerPort:8080
